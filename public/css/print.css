@@ -1,0 +1,20 @@
+
+@media print {
+
+  .sidebar, .masthead, .sidebar-toggle {
+    display: none;
+  }
+
+  .no-print {
+    display: none;
+  }
+
+  .page-title {
+    display: none;
+  }
+
+  body {
+    font-size: 9pt;
+  }
+}
+

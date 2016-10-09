@@ -1,6 +1,7 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
+# relative_permalinks: true
 permalink:           pretty
 
 # Setup
@@ -21,13 +22,15 @@ author:
 # Custom vars
 version:             1.0.0
 
+# require gems for build
 gems:
   - jekyll-paginate
+  - classifier-reborn
 
+# exclude files form build
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
   - LICENSE.md
   - Makefile
-

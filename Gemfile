@@ -23,3 +23,4 @@ gem "minima"
 #   gem "jekyll-github-metadata", "~> 1.0"
 # end
 gem "jekyll-paginate"
+gem "classifier-reborn"

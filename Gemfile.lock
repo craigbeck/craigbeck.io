@@ -1,7 +1,10 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    classifier-reborn (2.0.4)
+      fast-stemmer (~> 1.0)
     colorator (1.1.0)
+    fast-stemmer (1.0.2)
     ffi (1.9.14)
     forwardable-extended (2.6.0)
     jekyll (3.2.1)
@@ -39,6 +42,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  classifier-reborn
   jekyll (= 3.2.1)
   jekyll-paginate
   minima

@@ -9,8 +9,10 @@ title:               craigbeck.io
 tagline:             ''
 description:         ''
 url:                 http://craigbeck.io
-baseurl:             ''
 paginate:            5
+
+# permalink config
+permalink:          /:year/:month/:day/:slug/
 
 # About/contact
 author:

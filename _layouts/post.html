@@ -13,7 +13,7 @@ layout: default
   <h2>Filed under</h2>
   <ul class="post-categories">
     {% for category in page.categories %}
-    <li><a href="{{ site.baseurl}}/categories/{{ category }}">{{ category }}</a></li>
+    <li><a href="{{ site.baseurl}}/categories/{{ category | downcase }}">{{ category }}</a></li>
     {% endfor %}
   </ul>
 </div>

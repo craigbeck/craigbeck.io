@@ -4,7 +4,7 @@ title: "Safari + Hapi.js + CORS = 404"
 date: 2015-10-27 18:34:37 -0700
 comments: true
 categories:
-  - hapijs
+  - hapi.js
   - Safari
   - CORS
 ---

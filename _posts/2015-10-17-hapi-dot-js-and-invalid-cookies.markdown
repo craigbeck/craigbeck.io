@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Hapi.js &amp; invalid cookies"
+title: "Hapi.js & invalid cookies"
 date: 2015-10-17 12:36:04 -0700
 comments: true
 categories:
-  - hapijs
+  - hapi.js
 ---
 
 I love using [Hapi.js](http://hapijs.com), but every time I start a new
@@ -32,4 +32,3 @@ server.connection({
   }
 });
 ```
-

@@ -2,11 +2,6 @@
 layout: post
 title: "Bartini Beriev VVA-14"
 date: 2015-05-19 16:16:12 -0700
-comments: true
-categories:
-  - random
-  - aircraft
-  - russia
 ---
 
 [Bartinit Beriev

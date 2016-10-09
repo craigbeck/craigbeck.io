@@ -16,10 +16,30 @@ module Jekyll
     end
   end
 
+  class CategoriesIndexPage < Page
+    def initialize(site, base, dir)
+      @site = site
+      @base = base
+      @dir = dir
+      @name = 'index.html'
+
+      self.process(@name)
+      self.read_yaml(File.join(base, '_layouts'), 'categories_index.html')
+      self.data['title'] = "Categories"
+      self.data['categories'] = site.categories.keys.sort
+    end
+  end
+
+
   class CategoryPageGenerator < Generator
     safe true
 
     def generate(site)
+      if site.layouts.key? 'categories_index'
+        dir = site.config['category_dir'] || 'categories'
+        site.pages << CategoriesIndexPage.new(site, site.source, dir)
+      end
+
       if site.layouts.key? 'category_index'
         dir = site.config['category_dir'] || 'categories'
         site.categories.each_key do |category|

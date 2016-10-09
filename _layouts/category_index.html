@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  <ul>
+  {% for post in site.categories[page.category] %}
+    <li>
+      <span class="muted">{{ post.date | date_to_string }}</span>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>

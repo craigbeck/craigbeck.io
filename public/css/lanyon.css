@@ -562,7 +562,24 @@ a.pagination-item:hover {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
 }
 
+/* cutomized */
 
 .muted {
  color: #9a9a9a;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 25px;
+}
+
+ul.post-categories, ul.related-posts {
+  /*list-style-type: decimal-leading-zero;*/
+  list-style-type: square;
+  padding-left: 25px;
+}
+
+.related {
+  padding-top: 0;
+  border: none;
 }

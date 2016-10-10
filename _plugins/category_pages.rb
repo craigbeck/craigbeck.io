@@ -37,13 +37,13 @@ module Jekyll
     safe true
 
     def generate(site)
+      dir = site.config['category_dir'] || 'categories'
+
       if site.layouts.key? 'categories_index'
-        dir = site.config['category_dir'] || 'categories'
         site.pages << CategoriesIndexPage.new(site, site.source, dir)
       end
 
       if site.layouts.key? 'category_index'
-        dir = site.config['category_dir'] || 'categories'
         site.categories.each_key do |category|
           site.pages << CategoryPage.new(site, site.source, File.join(dir, category.downcase), category)
         end

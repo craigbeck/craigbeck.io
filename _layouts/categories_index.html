@@ -4,16 +4,12 @@ layout: default
 
 <div class="page">
   <h1 class="page-title">{{ page.title }}</h1>
-  <ul class="category-list">
   {% for category in page.categories %}
-    <li>
-      <h2><a href="{{ site.baseurl }}/categories/{{ category | downcase }}">{{ category }}</a></h2>
-      <ul>
-      {% for post in site.categories[category] %}
-        <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-      {% endfor %}
-      </ul>
-    </li>
+  <h2><a href="{{ category.url | relative_url}}">{{ category.name }}</a></h2>
+  <ul>
+  {% for post in site.categories[category.name] %}
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
   {% endfor %}
   </ul>
+  {% endfor %}
 </div>

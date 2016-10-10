@@ -13,7 +13,7 @@ layout: default
   <h2>Filed under</h2>
   <ul class="post-categories">
     {% for category in page.categories %}
-    <li><a href="{{ site.baseurl}}/categories/{{ category | downcase }}">{{ category }}</a></li>
+    <li><a href="{{ site.baseurl }}/categories/{{ category | downcase }}">{{ category }}</a></li>
     {% endfor %}
   </ul>
 </div>
@@ -24,12 +24,10 @@ layout: default
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
       <li>
-        <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
+        <a href="{{ post.url | relative_url }}">
+          {{ post.title }}
+          <small>{{ post.date | date_to_string }}</small>
+        </a>
       </li>
     {% endfor %}
   </ul>

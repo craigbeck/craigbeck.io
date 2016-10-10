@@ -10,3 +10,5 @@ build:
 deploy:
 	surge -p _site -d craigbeck.io
 
+check:
+	jekyll doctor

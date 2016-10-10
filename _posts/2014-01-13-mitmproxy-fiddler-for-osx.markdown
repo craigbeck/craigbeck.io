@@ -5,7 +5,6 @@ date: 2014-01-13 10:45
 comments: true
 categories:
   - OSX
-  - HTTP
   - tools
 ---
 

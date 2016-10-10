@@ -5,7 +5,7 @@ date: 2013-11-08 17:39
 comments: true
 categories:
   - Yeoman
-  - NodeJS
+  - node.js
   - npm
   - projects
   - Python
@@ -22,4 +22,3 @@ README.md
 
 **npm**: [https://npmjs.org/package/generator-pymod](https://npmjs.org/package/generator-pymod)<br>
 **github**: [https://github.com/craigbeck/generator-pymod](https://github.com/craigbeck/generator-pymod)
-

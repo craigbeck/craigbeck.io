@@ -8,11 +8,11 @@ categories:
   - AngularJS
   - ngMin
   - problem
-  - Grunt
-  - Javascript
+  - grunt
+  - javascript
 ---
 
-So I have a fairly simple [AngularJS](http://angularjs.org) project using the new [Angular UI Router](https://github.com/angular-ui/ui-router) and the project is scaffolded with the Yeoman angular generator. All is well when running locally in developer mode, but theres trouble once I run <code>grunt</code> and run with the grunt built/minified/uglified code -- the browser would just hang (Safari) or outright crash (Chrome). Hmmm, thats definitely not right. 
+So I have a fairly simple [AngularJS](http://angularjs.org) project using the new [Angular UI Router](https://github.com/angular-ui/ui-router) and the project is scaffolded with the Yeoman angular generator. All is well when running locally in developer mode, but theres trouble once I run <code>grunt</code> and run with the grunt built/minified/uglified code -- the browser would just hang (Safari) or outright crash (Chrome). Hmmm, thats definitely not right.
 
 My scripts are included in my <code>index.html</code> file like so:
 
@@ -74,9 +74,9 @@ $stateProvider
       }
     }
   })
-``` 
+```
 
-I'm using a service to make https requests against a service and this needs to be done on initialization so I'm using the <code>$stateProvider</code> resolve property to initiate the asynchronous call to the server and once that succeeds its passed to my controller. 
+I'm using a service to make https requests against a service and this needs to be done on initialization so I'm using the <code>$stateProvider</code> resolve property to initiate the asynchronous call to the server and once that succeeds its passed to my controller.
 
 This normally works great, but in this case the resolve function had its own dependency on a service. After Grunt had done its thing the code above looked like this:
 
@@ -134,5 +134,3 @@ Once I had that sorted my app loaded fine!
 - [Angular Dependency Injection Guide](http://docs.angularjs.org/guide/di)
 - [Using Resolve property with route provider](http://egghead.io/lessons/angularjs-resolve)
 - [More about using resolve](http://egghead.io/lessons/angularjs-resolve-conventions)
-
-

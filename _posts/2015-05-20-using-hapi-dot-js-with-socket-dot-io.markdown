@@ -5,7 +5,7 @@ date: 2015-05-20 16:19:48 -0700
 comments: true
 categories:
   - hapi.js
-  - node
+  - node.js
   - socket.io
   - howto
   - links

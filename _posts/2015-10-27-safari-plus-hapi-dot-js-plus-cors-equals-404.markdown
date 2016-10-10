@@ -5,7 +5,7 @@ date: 2015-10-27 18:34:37 -0700
 comments: true
 categories:
   - hapi.js
-  - Safari
+  - safari
   - CORS
 ---
 

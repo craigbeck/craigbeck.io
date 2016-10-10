@@ -6,7 +6,6 @@ comments: true
 categories:
   - AngularJS
   - directives
-  - Github
   - libraries
 ---
 
@@ -17,4 +16,3 @@ browser using directives.
 I love when web apps provide nice keyboard shortcuts and it's something
 I add where appropriate to improve the UX experience, so this will be
 going in the toolbox for later.
-

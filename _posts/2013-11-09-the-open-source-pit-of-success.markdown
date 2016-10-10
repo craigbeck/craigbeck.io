@@ -5,7 +5,7 @@ date: 2013-11-09 17:44
 comments: true
 categories:
   - Yeoman
-  - NodeJS
+  - node.js
   - npm
   - projects
 ---

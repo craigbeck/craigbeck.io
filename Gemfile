@@ -24,3 +24,4 @@ gem "minima"
 # end
 gem "jekyll-paginate"
 gem "classifier-reborn"
+gem "octopress"

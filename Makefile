@@ -2,7 +2,7 @@
 all: build deploy
 
 watch:
-	jekyll serve --watch
+	jekyll serve --watch --draft
 
 build:
 	jekyll build --lsi

@@ -20,7 +20,8 @@ footer: false
           <span class="muted">&star; </span>
           <a href="https://github.com/craigbeck">Github</a>
           <span class="muted">&star; </span>
-          <a href="{{ "/public/resume.pdf" | relative_url }}" download="Craig Beck resume.pdf">Download PDF</a>
+          <a href="{{ "/public/resume.pdf" | relative_url }}" download="Craig Beck resume.pdf">Download PDF</a><br/>
+          <span class="muted">Last updated {{ page | last_modified | date: "%b %d, %Y" }}</span>
         </span>
     </div>
 </div>

@@ -16,4 +16,6 @@ I'm a full-stack developer currently working with [NodeJS](http://nodejs.org), [
 
 ## This Site
 
-Built with [Jekyll](https://jekyllrb.com) and the [lanyon theme](http://lanyon.getpoole.com) and hosted via [Surge](https://surge.sh).
+Built with [Jekyll](https://jekyllrb.com) and the [lanyon theme](http://lanyon.getpoole.com) and hosted via [Surge](https://surge.sh). Significant inspiration from [Darning Fireball](http://daringfireball.net) use of link posts. I don't write often, but I always have links to share or to go back to for reference, so many posts link out to interesting articles or projects on the web.
+
+<span class="muted">Last updated {{ page | last_modified | date: "%b %d, %Y" }}</span>

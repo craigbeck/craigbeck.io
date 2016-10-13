@@ -16,7 +16,11 @@ footer: false
     <div class="properties">
         <a class="u-email" href="mailto:luckybonza@gmail.com">luckybonza@gmail.com</a> <span class="muted">&star;</span> <span class="p-tel">206-390-4022</span><br/>
         <span class="no-print">
-        <a href="http://www.linkedin.com/pub/craig-beck/9/a48/554">LinkedIn</a> <span class="muted">&star;</span> <a href="https://github.com/craigbeck">Github</a>
+          <a href="http://www.linkedin.com/pub/craig-beck/9/a48/554">LinkedIn</a>
+          <span class="muted">&star; </span>
+          <a href="https://github.com/craigbeck">Github</a>
+          <span class="muted">&star; </span>
+          <a href="{{ "/public/resume.pdf" | relative_url }}" download="Craig Beck resume.pdf">Download PDF</a>
         </span>
     </div>
 </div>

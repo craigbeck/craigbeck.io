@@ -1,6 +1,4 @@
 
-all: build deploy
-
 watch:
 	jekyll serve --watch --draft
 

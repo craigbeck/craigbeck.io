@@ -1,0 +1,17 @@
+---
+layout: post
+title: "CSS Locks"
+date: 2016-10-13T13:45:21-07:00
+categories:
+  - CSS
+---
+
+[The Math of CSS Locks](http://fvsch.com/code/css-locks/)
+
+> A CSS lock is a Responsive Web Design technique that lets you transition smoothly between two values, depending on the current viewport size, rather than jump straight from one value to the other.
+
+[Flexible Typography with CSS Locks](http://blog.typekit.com/2016/08/17/flexible-typography-with-css-locks/)
+
+> This formula is about more than line-height or font-size. This formula is a way of dynamically calculating any value between two extremes, relative to another set of extreme values — independent from media query breakpoints.
+
+A totally new-to-me technique. I'm glad there are CSS geeks out there to figure this stuff out for me to use ;-)

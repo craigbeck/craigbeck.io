@@ -26,7 +26,7 @@ module Jekyll
       self.process(@name)
       self.read_yaml(File.join(base, '_layouts'), 'categories_index.html')
       self.data['title'] = 'Categories'
-      self.data['categories'] = site.categories.keys.sort.map do |key|
+      self.data['categories'] = site.categories.keys.sort_by {|key| key.downcase} .map do |key|
         { 'name' => key, 'url' => "/categories/#{key.downcase}" }
       end
     end

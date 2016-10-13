@@ -2,6 +2,9 @@
 layout: post
 title: "uWebSockets"
 date: 2016-10-13T10:48:04-07:00
+categories:
+  - node.js
+  - socket.io
 ---
 
 [uWebSockets/uWebSockets](https://github.com/uWebSockets/uWebSockets)

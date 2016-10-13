@@ -2,6 +2,9 @@
 layout: post
 title: "Build a Music Streaming App With Electron, React & ES6"
 date: 2016-10-12T08:36:48-07:00
+categories:
+  - javascript
+  - electron
 ---
 
 [Build a Music Streaming App With Electron, React & ES6](https://www.sitepoint.com/music-streaming-app-electron-react-es6/)

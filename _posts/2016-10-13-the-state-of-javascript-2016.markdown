@@ -2,6 +2,8 @@
 layout: post
 title: "The State of Javascript 2016"
 date: 2016-10-13T10:00:33-07:00
+categories:
+  - javascript
 ---
 [The State of Javascript 2016](http://stateofjs.com)
 

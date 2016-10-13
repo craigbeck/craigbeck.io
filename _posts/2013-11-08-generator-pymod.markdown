@@ -4,11 +4,10 @@ title: "generator-pymod"
 date: 2013-11-08 17:39
 comments: true
 categories:
-  - Yeoman
   - node.js
   - npm
   - projects
-  - Python
+  - python
 ---
 
 This is just about the simplest [Yeoman generator](http://yeoman.io/generators.html) one could come up with. It doesn't do much beyond creating basic directory structure and template a couple boilerplate files for a Python module.

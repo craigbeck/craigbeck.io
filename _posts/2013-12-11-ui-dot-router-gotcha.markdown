@@ -4,11 +4,7 @@ title: "ui.router and 'aProvider' problems"
 date: 2013-12-11 10:37
 comments: true
 categories:
-  - Yeoman
   - AngularJS
-  - ngMin
-  - problem
-  - grunt
   - javascript
 ---
 

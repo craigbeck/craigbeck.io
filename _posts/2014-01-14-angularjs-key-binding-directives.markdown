@@ -5,8 +5,6 @@ date: 2014-01-14 10:29
 comments: true
 categories:
   - AngularJS
-  - directives
-  - libraries
 ---
 
 [mgo-mousetrap](https://github.com/mgonto/mgo-mousetrap) is a cool

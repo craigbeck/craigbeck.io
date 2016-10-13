@@ -6,7 +6,6 @@ comments: true
 categories:
   - dokku
   - docker
-  - build
 ---
 
 [Dokku](https://github.com/dokku/dokku) is a fantastic little PAAS app written in bash that can take a `git push`, build, and host your apps. It can use Heroku Buildpacks or [Docker](http://docker.com) to build your app (and uses Docker to host your running app) and can hadle running multiple Docker containers on a single host and sets up Nginx to proxy and route requests to the correct application.
@@ -32,4 +31,3 @@ RUN PATH_PREFIX=${PATH_PREFIX} ./dobuild   # use PATH_PREFIX (in this case as an
 ```
 
 Then commit changes and `git push` your app
-

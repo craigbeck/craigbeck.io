@@ -10,7 +10,7 @@ layout: null
     <priority>0.8</priority>
   </url>
 {% endfor %}
-{% assign sitemapPages = site.html_pages %}
+{% assign sitemapPages = (site.html_pages | where: "layout", "page") %}
 {% for page in sitemapPages %}
   <url>
     <loc>{{ site.url }}{{ page.url | absolute_url }}</loc>
@@ -19,4 +19,10 @@ layout: null
     <priority>0.7</priority>
   </url>
 {% endfor %}
+  <url>
+    <loc>{{ site.url }}/</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
 </urlset>

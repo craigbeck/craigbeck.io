@@ -3,8 +3,9 @@ require 'date'
 module Jekyll
   module LastModifiedFilter
     def last_modified(page)
-      if File.exist?(page['path'])
-        File.mtime(page['path'])
+      path = page['path']
+      if File.exist?(path)
+        File.mtime(path)
       else
         DateTime.now
       end

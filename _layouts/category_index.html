@@ -9,7 +9,7 @@ layout: default
   {% for post in sortedPosts %}
     <li>
       <span class="muted">{{ post.date | date: '%b %d, %Y' }}</span>
-      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
   </ul>

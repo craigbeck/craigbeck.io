@@ -3,7 +3,7 @@ watch:
 	jekyll serve --watch --draft
 
 build:
-	jekyll build --lsi
+	JEKYLL_ENV=production jekyll build --lsi
 
 deploy:
 	surge -p _site -d craigbeck.io

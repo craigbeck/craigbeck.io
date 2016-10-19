@@ -17,3 +17,5 @@ Some really good points are raised here &ndash; Who do bots serve? Who owns the 
 > ... _as a society we should not abuse bots._ I think that as humans, abusing bots will make us more prone to abusing other humans, and that is clearly bad.
 
 I [read about](http://www.theverge.com/2016/10/7/13202794/arguetron-twitter-bot-alt-right-internet-bigots-4chan-sarah-nyberg) Sarah Nyberg creating a [twitter bot](https://twitter.com/arguetron) that argues with those on the [alt-right](https://en.wikipedia.org/wiki/Alt-right). Sort of a honey-pot for the trolls of the twitterverse. My first reaction was, "this is awesome!", followed by the desire to build *bots for good*, to be the defenders of decency, our shield from trolls who would be so exhausted fighting them they would give up their trollish ways... and then I thought about it some more.
+
+The first thing is escalation... both sides can create more bots. It's kind of cool to think of warring tribes of bots

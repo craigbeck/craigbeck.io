@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Next.js"
+date: 2016-10-26T00:19:16-07:00
+categories:
+  - javascript
+  - node
+  - react
+---
+
+[Next.js](https://zeit.co/blog/next)
+
+> For many years now, we have been pursuing a vision of universal JavaScript applications.
+> Node.js led the way, by enabling code sharing between client and server, broadening the contribution surface for many developers around the world.
+>
+> Many attempts were made to make it practical to develop apps and websites on Node. Many template languages and frameworks came along... but the technical divide between frontend and backend remained.
+
+[zeit/next.js](https://github.com/zeit/next.js)
+
+> A minimalistic framework for server-rendered React applications

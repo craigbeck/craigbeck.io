@@ -47,7 +47,7 @@ GEM
       jekyll (>= 2.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
-    rb-fsevent (0.9.7)
+    rb-fsevent (0.9.8)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     redcarpet (3.3.4)

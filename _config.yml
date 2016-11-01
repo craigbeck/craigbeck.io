@@ -36,3 +36,7 @@ exclude:
   - README.md
   - LICENSE.md
   - Makefile
+
+collections:
+  resources:
+    output: true

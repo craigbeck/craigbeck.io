@@ -49,8 +49,6 @@ GEM
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     rb-fsevent (0.9.8)
-    rb-gsl (1.16.0.6)
-      gsl
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     redcarpet (3.3.4)
@@ -64,8 +62,8 @@ PLATFORMS
 
 DEPENDENCIES
   classifier-reborn
+  gsl
   jekyll (= 3.3.0)
   jekyll-paginate
   minima
   octopress
-  rb-gsl

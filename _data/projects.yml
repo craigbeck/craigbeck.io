@@ -1,8 +1,15 @@
 - name: hapi-raygun
-  url: https://github.com/craigbeck/hapi-raygun
+  url: https://www.npmjs.com/package/hapi-raygun
   excerpt: A Hapi.js plugin for reporting server-side errors to [Raygun](https://raygun.com)
   tags:
     - node
+
+- name: sensor-logger
+  url: https://github.com/craigbeck/sensor-logger
+  excerpt: A node.js app that logs incomming stats from an Arduino to [Librato](https://www.librato.com)
+  tags:
+    - node
+    - arduino
 
 - name: react-isomorphic-demo
   url: https://github.com/craigbeck/react-isomorphic-demo
@@ -17,13 +24,27 @@
     - node
     - react
 
-- name: sensor-logger
-  url: https://github.com/craigbeck/sensor-logger
-  excerpt: A node.js app that logs incomming stats from an Arduino to [Librato](https://www.librato.com)
+- name: status-board
+  url: https://github.com/craigbeck/status-board
+  excerpt: Elixir app displaying devloper status through [Slack](http://slackhq.com) slash commands in real-time
   tags:
-    - node
-    - arduino
+    - elixir
 
 - name: craigbeck.io
   url: https://github.com/craigbeck/craigbeck.io
   excerpt: This site you're looking at
+  tags:
+    - html
+    - css
+
+- name: craigbeck/MacMapKit
+  url: https://github.com/craigbeck/MacMapKit
+  excerpt: Fork of [Oomph/MacMapKit](https://github.com/Oomph/MacMapKit) with added methods for setting zoom level
+  tags:
+    - objective-c
+
+- name: generator-pymod
+  url: https://www.npmjs.com/package/generator-pymod
+  excerpt: A generator for [Yeoman](http://yeoman.io) to create Python module boilerplate
+  tags:
+    - node

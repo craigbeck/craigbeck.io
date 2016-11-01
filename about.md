@@ -11,7 +11,7 @@ footer: true
 
 I'm a full-stack developer currently working with [NodeJS](http://nodejs.org), [AngularJS](http://angularjs.org), [React](http://facebook.github.io/react/), most recently at [Zipwhip](http://www.zipwhip.com) where I was building the next generation of Zipwhip's applications in Node and React.
 
-[Here's a summary](/resume/) of what I have done.
+[Here's a summary](/resume/) of what I have done as well as some [projects](/projects/).
 
 
 ## This Site

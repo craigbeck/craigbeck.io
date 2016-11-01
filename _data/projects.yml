@@ -37,7 +37,7 @@
     - html
     - css
 
-- name: craigbeck/MacMapKit
+- name: MacMapKit
   url: https://github.com/craigbeck/MacMapKit
   excerpt: Fork of [Oomph/MacMapKit](https://github.com/Oomph/MacMapKit) with added methods for setting zoom level
   tags:

@@ -1,0 +1,12 @@
+---
+layout: {{ layout }}
+title: "{{ title }}"
+date: {{ date }}
+linkhref: {{ url }}
+categories:
+---
+
+[{{ page.title }}]({{ page.linkhref }})
+
+> 
+

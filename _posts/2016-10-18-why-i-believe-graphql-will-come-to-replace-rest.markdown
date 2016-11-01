@@ -6,7 +6,7 @@ categories:
   - GraphQL
 ---
 
-[Why I believe GRaphQL will come to replace
+[Why I believe GraphQL will come to replace
 REST](https://dev.to/reactiveconf/why-i-believe-graphql-will-come-to-replace-rest)
 
 > With REST, there is a continuous tension between efficiently satisfying the data needs of specific clients, and keeping the number of endpoints manageable. The reason for this tension is that a server defines what data an endpoint returns, and the client merely requests it. Especially in mobile apps, the overhead of performing separate requests or of requesting extraneous data is often unacceptable, so we're forced to add ad-hoc endpoints with custom response structures.

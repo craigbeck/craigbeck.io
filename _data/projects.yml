@@ -1,0 +1,29 @@
+- name: hapi-raygun
+  url: https://github.com/craigbeck/hapi-raygun
+  excerpt: A Hapi.js plugin for reporting server-side errors to [Raygun](https://raygun.com)
+  tags:
+    - node
+
+- name: react-isomorphic-demo
+  url: https://github.com/craigbeck/react-isomorphic-demo
+  excerpt: React.js isomorphic rendering demo app
+  tags:
+    - react
+
+- name: webpack-starter
+  url: https://github.com/craigbeck/webpack-starter
+  excerpt: Webpack starter project boilerplate
+  tags:
+    - node
+    - react
+
+- name: sensor-logger
+  url: https://github.com/craigbeck/sensor-logger
+  excerpt: A node.js app that logs incomming stats from an Arduino to [Librato](https://www.librato.com)
+  tags:
+    - node
+    - arduino
+
+- name: craigbeck.io
+  url: https://github.com/craigbeck/craigbeck.io
+  excerpt: This site you're looking at

@@ -1,0 +1,3 @@
+- name: sequelize/sequelize
+- name: agus-c/just
+- name: hapijs/hapi

@@ -7,3 +7,8 @@ title: Projects
 
 {{ project.excerpt }}
 {% endfor %}
+
+## Contributions
+{% for project in site.data.contributions %}
+[{{ project.name }}](https://github.com/{{ project.name }}/commits?author=craigbeck)
+{% endfor %}

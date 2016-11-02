@@ -4,6 +4,7 @@ title: "Th0r/webpack-bundle-analyzer"
 date: 2016-11-02T11:18:59-07:00
 linkhref:
 categories:
+  - webpack
 ---
 
 

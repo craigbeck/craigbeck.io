@@ -1,4 +1,3 @@
-
 watch:
 	jekyll serve --watch --draft
 
@@ -16,3 +15,6 @@ clean:
 
 check:
 	jekyll doctor
+
+linkpost:
+	bundle exec octopress new post "${title}" --template linkpost

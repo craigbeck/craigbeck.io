@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Lerna"
+date: 2016-12-06T10:17:01-08:00
+linkhref: https://lernajs.io/
+categories:
+  - javascript
+  - node
+---
+
+
+[{{ page.title }}]({{ page.linkhref }})
+
+> Lerna is a tool that optimizes the workflow around managing multi-package repositories with git and npm.
+
+I just started using this and I'm sold. I've found while I often like the idea of splitting a codebase into multiple packages, there's significant overhead of releasing, managing multiple repos, package registries etc. required. Lerna makes this so much simpler to ease into by managing multiple packages (that can be published independently if that's your thing) under a single mono-repository. So with this I can properly split my code into sane packages without going insane trying to manage it all.
+

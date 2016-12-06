@@ -28,10 +28,6 @@ footer: false
 
 <hr/>
 
-Status: Currently open to new opportunities in the Seattle area or remotely (no relocation). Most interested in front-end or full-stack position with Node, Elixir, and React.
-
-<hr/>
-
 The language I am currently most fluent in is **Javascript** for both client and server development, although I have done work with Java, C#, and Python, I am most passionate to work with **node.js**, or **Elixir** and **Erlang** to create [native web apps](https://blog.andyet.com/2015/01/22/native-web-apps) and supporting APIs.
 
 I am most comfortable with agile development processes and enjoy pair-programming and practicing <abbr title="Test Diven Development">[TDD](http://en.wikipedia.org/wiki/Test-driven_development)</abbr> and <abbr title="Behaviour Diven Development">[BDD](http://en.wikipedia.org/wiki/Behavior-driven_development)</abbr>
@@ -53,6 +49,10 @@ C# 2.0-4.0, ASP.NET MVC 3, Linq, Knockout.JS, NUnit, RabbitMQ, MassTransit, WCF,
 
 
 ## Experience
+
+### [Premise](http://www.premise.com) - Front-End Software Engineer 11/2016-present
+
+Front-end engineering using React, Redux, [Lerna](https://lernajs.io), and [Flow](https://flowtype.org) to build web-based data gathering campaigns and analytic tools to enable organizations to make better decisions.
 
 ### [Zipwhip](http://www.zipwhip.com) - Senior Front-End Engineer 03/2015-07/2016
 

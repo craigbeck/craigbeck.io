@@ -40,9 +40,11 @@ Using a list with named keys similar to a dictionary in other languages.
 [1] "baz"
 ```
 
+- [see also](http://www.r-tutor.com/r-introduction/list)
+
 ### Vectors
 
-Vectors... almost like lists but not. Accessed the same way, but you can't use names like you can with a list.
+Vectors... almost like lists but not. Accessed the similarly to lists.
 
 ```r
 > v = c(1, 3, 5)
@@ -51,6 +53,11 @@ Vectors... almost like lists but not. Accessed the same way, but you can't use n
 > v[[3]]
 [1] 5
 ```
+
+- [see also](http://www.r-tutor.com/r-introduction/vector)
+- [you can name vector members](http://www.r-tutor.com/r-introduction/vector/named-vector-members)
+
+### Data frames
 
 Data frames are frequently used to store table data ([see this](http://www.r-tutor.com/r-introduction/data-frame))
 

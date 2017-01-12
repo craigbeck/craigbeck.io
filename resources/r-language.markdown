@@ -110,6 +110,13 @@ Mazda RX4 Wag       21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4
 Datsun 710          22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1
 ```
 
+Grep data frame column names...
+
+```ref
+> grep("Percent", names(sumidero.cali.df), value=TRUE)
+[1] "Aedes_Percent"      "Culex_Percent"      "Mixed_Percent"      "Any_Larvae_Percent" "Inspected_Percent"  "Treated_Percent"
+```
+
 ### Data operations
 
 Filtering data frames

@@ -18,5 +18,5 @@ categories:
 > 
 > With those thoughts in mind, let's dig into the discussions and see just what has been said about thunks.
 
-Lots of good stuff in here. I can see a couple of things right away that I have noticed as problematic (duplication of async code, going "dispatch crazy" with chained actions)) but struggled to find an obviously better solution.
+Lots of good stuff in here. I can see a couple of things right away that I have noticed as problematic (duplication of async code, going "dispatch crazy" with chained actions) but struggled to find an obviously better solution.
 

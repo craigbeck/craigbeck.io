@@ -3,9 +3,11 @@ layout: page
 title: "Baofeng BF-F8HP guide"
 ---
 
-Simple guide for programming the [BF-F8HP](https://baofengtech.com/bf-f8hp) radio.
+Simple guide for manually programming the [BF-F8HP](https://baofengtech.com/bf-f8hp) radio.
 
-# Programming channels
+For using the [chirp](http://chirp.danplanet.com/projects/chirp/wiki/Home) command line see the [chirpc guide](/resources/chirpc-guide/)
+
+## Programming channels
 
 1. Select "frequency mode" with the `VFO/MR` button
 1. Select the top frequency slot "A" with the `A/B` button
@@ -16,7 +18,7 @@ Simple guide for programming the [BF-F8HP](https://baofengtech.com/bf-f8hp) radi
 
 [BF-F8HP Manual](https://baofengtech.com/usermanual/BF-F8HP_Manual.pdf)
 
-## Menus
+### Menus
 
 | `2`  | `TXP`    | transmit power; `HIGH`, `MID`, `LOW` |
 | `13` | `CTCSS`  | set CTCSS frequency |
@@ -25,7 +27,7 @@ Simple guide for programming the [BF-F8HP](https://baofengtech.com/bf-f8hp) radi
 | `26` | `OFFSET` | offset amount; usually 0.600 or 5.000 |
 | `27` | `MEM-CH` | save channel |
 
-## FRS Channels and codes
+### FRS Channels and codes
 
 So those cheap two-way FRS/GMRS radios use the same 2m UHF bands and use CTCSS for the "privacy" code... which amusingly isn't private as anyone tuned to the same frequency can hear the transmission. For example, a FRS radio on channel 4-2 is using simplex frequency of 462.6375MHz and a CTSCSS of 71.9Hz. 14-4 would be 467.7125MHz and 77.0Hz. A radio receiving on 462.6375MHz will pick up all signals including those sent with a "privacy code" (or as the Motorola manual calls it an "interference eliminator tone") but the FRS radio won't output audio unless the matching CTCSS code is set.
 

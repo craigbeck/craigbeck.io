@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Hshoff/vx"
+date: 2017-05-12T10:43:41-07:00
+linkhref: https://github.com/hshoff/vx 
+categories:
+  - react
+  - d3
+---
+
+
+[{{ page.title }}]({{ page.linkhref }})
+
+> vx is collection of reusable low-level visualization components. vx combines the power of d3 to generate your visualization with the benefits of react for updating the DOM.
+
+Theres a very nice [demo gallery of charts](https://vx-demo.now.sh/gallery) rendered with VX as well

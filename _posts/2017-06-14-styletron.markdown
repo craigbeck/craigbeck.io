@@ -4,7 +4,7 @@ title: "Styletron"
 date: 2017-06-14T11:57:58-07:00
 linkhref: http://styletron.js.org
 categories:
-  - css
+  - CSS
 ---
 
 

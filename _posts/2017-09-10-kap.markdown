@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Kap"
+date: 2017-09-10T18:27:52-07:00
+linkhref: https://getkap.co
+categories: tools
+---
+
+
+[{{ page.title }}]({{ page.linkhref }})
+
+> An open-source screen recorder built with web technology
+
+A nice simple utility for screen recording
+

@@ -3,7 +3,7 @@ layout: post
 title: "React Aha Moments"
 date: 2017-01-06T13:50:44-08:00
 linkhref: https://tylermcginnis.com/react-aha-moments/
-categories: reactjs
+categories: react
 ---
 
 

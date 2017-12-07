@@ -1,0 +1,17 @@
+---
+layout: post
+title: "Parcel.js"
+date: 2017-12-07T10:07:45-08:00
+linkhref: https://parceljs.org
+categories:
+  - javascript
+  - tools
+---
+
+
+[{{ page.title }}]({{ page.linkhref }})
+
+> Blazing fast, zero configuration web application bundler
+
+I was just talking with some folks at a meetup last night about the pain of webpack configuration. In previous jobs, spinning up a new app was a regular thing so I got pretty adept at doing the webpack dance, but at the current gig, I'm working on a large React app that was setup before I got here so I havent had to dive into webpack for over a year! This is going on the short list of things to check out with my next pide project.
+

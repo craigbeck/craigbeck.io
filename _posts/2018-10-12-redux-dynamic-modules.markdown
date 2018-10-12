@@ -4,6 +4,8 @@ title: "Redux-dynamic-modules"
 date: 2018-10-12T10:21:25-07:00
 linkhref: https://redux-dynamic-modules.js.org
 categories:
+  - react
+  - redux
 ---
 
 

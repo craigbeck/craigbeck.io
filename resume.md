@@ -50,6 +50,10 @@ C# 2.0-4.0, ASP.NET MVC 3, Linq, Knockout.JS, NUnit, RabbitMQ, MassTransit, WCF,
 
 ## Experience
 
+### [Premise](https:///www.premise.com) - Sr. Front-End Development Manager 11/2016-6/2019
+
+### [Premise](https:///www.premise.com) - Lead Front-End Software Engineer 11/2016-6/2019
+
 ### [Premise](http://www.premise.com) - Front-End Software Engineer 11/2016-present
 
 Front-end engineering using React, Redux, [Lerna](https://lernajs.io), and [Flow](https://flowtype.org) to build web-based data gathering campaigns and analytic tools to enable organizations to make better decisions.

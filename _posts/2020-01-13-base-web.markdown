@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Introducing Base Web"
+date: 2020-01-13T14:06:03-08:00
+linkhref: https://eng.uber.com/introducing-base-web
+categories:
+  - react
+  - design
+---
+
+
+[{{ page.title }}]({{ page.linkhref }})
+
+> Base Web is a foundation for initiating, evolving, and unifying web applications. It’s an open source toolkit of React components and utilities that align with the Base Design System–essentially, the designs translated into code. The project is engineered to be reliable, accessible, and extensively customizable.
+
+We have been using Material-UI for our base component library but Uber's open-source alternative is going to get serious consideration for my next projects. It looks to be fairly comprehensive in ots [components](https://baseweb.design/components/), and I like that the style choices are very neutral. A strong customization API is high on the list of needs for any component library I'm evaluating.
+
+[Base Web project home](https://baseweb.design)
+

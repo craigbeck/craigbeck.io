@@ -20,7 +20,9 @@ footer: false
           <span class="muted">&star; </span>
           <a href="https://github.com/craigbeck">Github</a>
           <span class="muted">&star; </span>
+          <!--
           <a href="{{ "/public/resume.pdf" | relative_url }}" download="Craig Beck resume.pdf">Download PDF</a><br/>
+          -->
           <span class="muted">Last updated {{ page | last_modified | date: "%b %d, %Y" }}</span>
         </span>
     </div>
@@ -37,11 +39,11 @@ I am most comfortable with agile development processes and enjoy pair-programmin
 
 ### Primary Technologies
 
-Javascript, [NodeJS](http://nodejs.org), [ReactJS](http://facebook.github.io/react/), [AngularJS](http://angularjs.org), Python, HTML, CSS 3, [Bootstrap](http://getbootstrap.com), Amazon Web Services (EC2, S3, Route53, SNS, SQS, Cloudwatch), OS X, Bash
+Javascript, [NodeJS](http://nodejs.org), [ReactJS](http://facebook.github.io/react/), [Typescrpt](https://www.typescriptlang.org), Python, HTML, CSS 3, Amazon Web Services (EC2, S3, Route53, SNS, SQS, Cloudwatch), OS X, Bash
 
 ### Secondary Technologies
 
-[Webpack](http://webpack.github.io), [Elixir](http://elixir-lang.org), [Grunt.js](http://gruntjs.com), [Gulp.js](http://gulpjs.com), [SASS](http://sass-lang.com), [LESS](http://lesscss.org), [D3](http://d3js.org), [Elasticsearch](http://elasticsearch.org), [ZeroMQ](http://zeromq.org), [Apache Zookeeper](http://zookeeper.apache.org), MySQL, Postgres, [CouchDB](http://couchdb.apache.org), [Docker](http://docker.com), [Vagrant](http://vagrantup.com)
+[Webpack](http://webpack.github.io), [Elixir](http://elixir-lang.org), [AngularJS](http://angularjs.org), [Grunt.js](http://gruntjs.com), [Gulp.js](http://gulpjs.com), [SASS](http://sass-lang.com), [LESS](http://lesscss.org), [D3](http://d3js.org), [Elasticsearch](http://elasticsearch.org), [ZeroMQ](http://zeromq.org), [Apache Zookeeper](http://zookeeper.apache.org), [Bootstrap](http://getbootstrap.com),MySQL, Postgres, [CouchDB](http://couchdb.apache.org), [Docker](http://docker.com), [Vagrant](http://vagrantup.com)
 
 ### Past Technologies
 
@@ -50,13 +52,22 @@ C# 2.0-4.0, ASP.NET MVC 3, Linq, Knockout.JS, NUnit, RabbitMQ, MassTransit, WCF,
 
 ## Experience
 
-### [Premise](https:///www.premise.com) - Sr. Front-End Development Manager 11/2016-6/2019
+### [Premise](https:///www.premise.com) - Sr. Front-End Development Manager 11/2019-present
+Managed team of 5 front-end engineers while maintaining a hand in technical work. Designed architecture for new initiatives for client facing applications using React, Node, [Hapi](https://hapi.dev), [Cube.js](https://cube.dev), [TypeScript](https://www.typescriptlang.org)
+- code reviews
+- mentoring
 
-### [Premise](https:///www.premise.com) - Lead Front-End Software Engineer 11/2016-6/2019
+### [Premise](https:///www.premise.com) - Lead Front-End Software Engineer 05/2018-11/2019
+Lead for team of 4 engineers defining technical direction for the evolution of the Premise web platform
+- defined code guidelines
+- code reviews
+- mentoring
 
-### [Premise](http://www.premise.com) - Front-End Software Engineer 11/2016-present
+### [Premise](http://www.premise.com) - Front-End Software Engineer 11/2016-05/2018
 
 Front-end engineering using React, Redux, [Lerna](https://lernajs.io), and [Flow](https://flowtype.org) to build web-based data gathering campaigns and analytic tools to enable organizations to make better decisions.
+- developed new product area and features for data-quality, user and fraud management, data visualizations
+- defined APIs and advocated for architecture
 
 ### [Zipwhip](http://www.zipwhip.com) - Senior Front-End Engineer 03/2015-07/2016
 

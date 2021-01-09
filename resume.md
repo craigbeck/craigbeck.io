@@ -75,7 +75,7 @@ Full stack node.js web development including the [corporate website](http://www.
 
 ### [General UI](http://generalui.com) - Senior Software Engineer 12/2014-03/2015
 
-Full-stack node.js development and consulting. Maintenance and new feature development for [Refund.me](https://www.refund.me). New feature development for green-field client applications.
+Full-stack node.js development and consulting. Maintenance and new feature development for [Refund.me](https://www.refund.me) involving heavy refactoring of massive JQuery codebase. New feature development for green-field client applications.
 
 ### [Formidable Labs](http://formidablelabs.com) - Software Engineer 09/2014-11/2014
 

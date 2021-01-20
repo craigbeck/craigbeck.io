@@ -3,7 +3,9 @@ layout: post
 title: "Rebass"
 date: 2016-12-31T13:14:14-08:00
 linkhref: http://jxnblk.com/rebass/
-categories: react
+categories:
+  - react
+  - libraries
 ---
 
 

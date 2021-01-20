@@ -13,3 +13,4 @@ categories: react
 
 Interesting pattern I've started seeing where `chidlren` is passed a function instead of React elements.
 
+2020 updates – it's functional components all the way now

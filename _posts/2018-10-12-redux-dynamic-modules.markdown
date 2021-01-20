@@ -6,6 +6,7 @@ linkhref: https://redux-dynamic-modules.js.org
 categories:
   - react
   - redux
+  - libraries
 ---
 
 

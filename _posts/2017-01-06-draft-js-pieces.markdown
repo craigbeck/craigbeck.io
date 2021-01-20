@@ -4,6 +4,8 @@ title: "Draft-js Pieces"
 date: 2017-01-06T10:54:31-08:00
 linkhref: https://cannibalcoder.com/2016/12/02/draft-js-pieces/
 categories:
+  - react
+  - libraries
 ---
 
 

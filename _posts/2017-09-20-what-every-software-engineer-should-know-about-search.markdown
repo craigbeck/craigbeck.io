@@ -5,6 +5,7 @@ date: 2017-09-20T18:29:32-07:00
 linkhref: https://medium.com/startup-grind/what-every-software-engineer-should-know-about-search-27d1df99f80d
 categories:
   - engineering
+  - ux
 ---
 
 

@@ -37,36 +37,45 @@ I am most comfortable with agile development processes and enjoy pair-programmin
 
 ### Primary Technologies
 
-Javascript, [NodeJS](http://nodejs.org), [ReactJS](http://facebook.github.io/react/), [AngularJS](http://angularjs.org), Python, HTML, CSS 3, [Bootstrap](http://getbootstrap.com), Amazon Web Services (EC2, S3, Route53, SNS, SQS, Cloudwatch), OS X, Bash
+Javascript, [NodeJS](http://nodejs.org), [ReactJS](http://facebook.github.io/react/), [Typescrpt](https://www.typescriptlang.org), HTML, CSS 3, OS X, Bash
 
 ### Secondary Technologies
 
-[Webpack](http://webpack.github.io), [Elixir](http://elixir-lang.org), [Grunt.js](http://gruntjs.com), [Gulp.js](http://gulpjs.com), [SASS](http://sass-lang.com), [LESS](http://lesscss.org), [D3](http://d3js.org), [Elasticsearch](http://elasticsearch.org), [ZeroMQ](http://zeromq.org), [Apache Zookeeper](http://zookeeper.apache.org), MySQL, Postgres, [CouchDB](http://couchdb.apache.org), [Docker](http://docker.com), [Vagrant](http://vagrantup.com)
+[Webpack](http://webpack.github.io), [Elixir](http://elixir-lang.org), [SASS](http://sass-lang.com), [LESS](http://lesscss.org), [Elasticsearch](http://elasticsearch.org), MySQL, Postgres, [Docker](http://docker.com), Google Cloud (AppEngine, Storage, BigQuery, DataStore)
 
 ### Past Technologies
 
-C# 2.0-4.0, ASP.NET MVC 3, Linq, Knockout.JS, NUnit, RabbitMQ, MassTransit, WCF, PowerShell, SQL, XML, XPath, XQuery, NAnt, CruiseControl.NET, Subversion, IIS 6, IIS 7, Microsoft Office, Microsoft SQL Server 2005/2008, Sqlite
+[D3](http://d3js.org), [AngularJS](http://angularjs.org), [Grunt.js](http://gruntjs.com), [Gulp.js](http://gulpjs.com), [Vagrant](http://vagrantup.com), [ZeroMQ](http://zeromq.org), [Apache Zookeeper](http://zookeeper.apache.org), [Bootstrap](http://getbootstrap.com), [CouchDB](http://couchdb.apache.org),  Amazon Web Services (EC2, S3, Route53, SNS, SQS, Cloudwatch), Python, C# 2.0-4.0, ASP.NET MVC 3, Linq, Knockout.JS, NUnit, RabbitMQ, MassTransit, WCF, PowerShell, SQL, XML, XPath, XQuery, NAnt, CruiseControl.NET, Subversion, IIS 6, IIS 7, Microsoft Office, Microsoft SQL Server 2005/2008, Sqlite
 
 
 ## Experience
 
-### [Premise](https:///www.premise.com) - Sr. Front-End Development Manager 11/2016-6/2019
+### [Premise Data](https:///www.premise.com) - Sr. Front-End Development Manager 11/2019-present
 
-### [Premise](https:///www.premise.com) - Lead Front-End Software Engineer 11/2016-6/2019
+Managed team of 5 front-end engineers while maintaining a hand in technical work. Designed architecture for new initiatives for client facing applications using React, Node, [Hapi](https://hapi.dev), [Cube.js](https://cube.dev), [TypeScript](https://www.typescriptlang.org)
+- code reviews
+- mentoring
 
-### [Premise](http://www.premise.com) - Front-End Software Engineer 11/2016-present
+### [Premise Data](https:///www.premise.com) - Lead Front-End Software Engineer 05/2018-11/2019
+
+Lead for team of 4 engineers defining technical direction for the evolution of the Premise web platform
+- defined code guidelines
+- code reviews
+- mentoring
+
+### [Premise Data](http://www.premise.com) - Front-End Software Engineer 11/2016-05/2018
 
 Front-end engineering using React, Redux, [Lerna](https://lernajs.io), and [Flow](https://flowtype.org) to build web-based data gathering campaigns and analytic tools to enable organizations to make better decisions.
+- developed new product area and features for data-quality, user and fraud management, data visualizations
+- defined APIs and advocated for architecture
 
 ### [Zipwhip](http://www.zipwhip.com) - Senior Front-End Engineer 03/2015-07/2016
 
-Full stack node.js web development including the [corporate website](http://www.zipwhip.com) as well as the next generation of the Zipwhip messaging [web application](http://www.zipwhip.com/app/web). Lead a team of three UI engineers to build micro-applications using React and Redux on the front-end and Node for middle-tier services as API gaeway over legacy services. Prototyping of new technology initiatives with JSPM, [GraphQL](http://graphql.org) services in Node and Elixir, as well as [Relay](https://facebook.github.io/relay/) front-end applications
+Full stack node.js web development including the [corporate website](http://www.zipwhip.com) as well as the next generation of the Zipwhip messaging [web application](http://www.zipwhip.com/app/web). Lead a team of three UI engineers to build micro-applications using React and Redux on the front-end and Node for middle-tier services as API gateway over legacy services. Prototyping of new technology initiatives with [JSPM](https://jspm.dev), [GraphQL](http://graphql.org) services in Node and Elixir, as well as [Relay](https://facebook.github.io/relay/) front-end applications for major telecom partners
 
 ### [General UI](http://generalui.com) - Senior Software Engineer 12/2014-03/2015
 
-Full-stack node.js development and consulting. Maintenance and new
-feature development for [Refund.me](https://www.refund.me). New feature
-development for green-field client applications.
+Full-stack node.js development and consulting. Maintenance and new feature development for [Refund.me](https://www.refund.me) involving heavy refactoring of massive JQuery codebase. New feature development for green-field client applications.
 
 ### [Formidable Labs](http://formidablelabs.com) - Software Engineer 09/2014-11/2014
 

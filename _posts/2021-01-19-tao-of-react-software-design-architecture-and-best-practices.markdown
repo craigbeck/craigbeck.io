@@ -4,6 +4,8 @@ title: "Tao of React - Software Design, Architecture & Best Practices"
 date: 2021-01-19T16:58:11-08:00
 linkhref: https://alexkondov.com/tao-of-react/
 categories:
+  - react
+  - architecture
 ---
 
 

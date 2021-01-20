@@ -6,6 +6,7 @@ linkhref: https://github.com/hshoff/vx
 categories:
   - react
   - d3
+  - libraries
 ---
 
 

@@ -5,6 +5,7 @@ date: 2017-09-18T12:31:52-07:00
 linkhref: https://github.com/acdlite/recompose
 categories:
   - react
+  - libraries
 ---
 
 

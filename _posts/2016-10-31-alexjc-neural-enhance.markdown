@@ -5,6 +5,7 @@ date: 2016-10-31T19:51:13-07:00
 linkhref: https://github.com/alexjc/neural-enhance
 categories:
   - machine learning
+  - libraries
 ---
 
 [{{ page.title }}]({{ page.linkhref }})

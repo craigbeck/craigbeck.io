@@ -4,6 +4,7 @@ title: "naptha/tesseract.js"
 date: 2016-10-20T22:17:32-07:00
 categories:
   - javascript
+  - libraries
 ---
 
 [naptha/tesseract.js](https://github.com/naptha/tesseract.js)

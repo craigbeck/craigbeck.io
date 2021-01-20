@@ -10,7 +10,7 @@ layout: null
     <priority>0.8</priority>
   </url>
 {% endfor %}
-{% assign sitemapPages = (site.html_pages | where: "layout", "page") %}
+{% assign sitemapPages = site.html_pages | where: "layout", "page" %}
 {% for page in sitemapPages %}
   <url>
     <loc>{{ page.url | absolute_url }}</loc>

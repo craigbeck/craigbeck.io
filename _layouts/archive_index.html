@@ -6,7 +6,7 @@ layout: default
   {% for year in page.years %}
   <h2>{{year}}</h2>
   <ul>
-  {% assign sortedPosts = (page.archives[year] | sort 'date') | reverse %}
+  {% assign sortedPosts = page.archives[year] | sort: 'date' | reverse %}
   {% for post in sortedPosts %}
     <li>
       <span class="muted">{{ post.date | date: '%b %d' }}<span> <a href="{{ post.url | relative_url }}">{{ post.title }}</a>

@@ -5,7 +5,7 @@ layout: default
 <div class="page">
   <h1 class="page-title">{{ page.category }} <a href="{{ "/categories" | relative_url }}">&#9709;</a></h1>
   <ul>
-  {% assign sortedPosts = (site.categories[page.category] | sort: 'date') | reverse %}
+  {% assign sortedPosts = site.categories[page.category] | sort: 'date' | reverse %}
   {% for post in sortedPosts %}
     <li>
       <span class="muted">{{ post.date | date: '%b %d, %Y' }}</span>

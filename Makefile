@@ -1,5 +1,5 @@
 watch:
-	jekyll serve --watch --draft
+  jekyll serve --watch --draft --port 4001
 
 build:
 	JEKYLL_ENV=production jekyll build --lsi

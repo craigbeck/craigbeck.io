@@ -5,7 +5,7 @@ date: 2021-01-25T12:06:08-08:00
 linkhref: https://www.joshwcomeau.com/css/styled-components/
 categories:
   - react
-  - css
+  - CSS
 ---
 
 

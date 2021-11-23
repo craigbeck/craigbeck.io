@@ -50,7 +50,9 @@ Javascript, [NodeJS](http://nodejs.org), [ReactJS](http://facebook.github.io/rea
 
 ## Experience
 
-### [Premise](https:///www.premise.com) - Sr. Front-End Development Manager 11/2019-present
+
+### [Premise](https:///www.premise.com) - Sr. Front-End Engineer 05/2021-present
+### [Premise](https:///www.premise.com) - Sr. Front-End Development Manager 11/2019-05/2021
 
 Managed team of 5 front-end engineers while maintaining a hand in technical work. Designed architecture for new initiatives for client facing applications using React, Node, [Hapi](https://hapi.dev), [Cube.js](https://cube.dev), [TypeScript](https://www.typescriptlang.org)
 - code reviews

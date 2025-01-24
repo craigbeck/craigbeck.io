@@ -3,6 +3,8 @@
 # Use of `relative_permalinks` ensures post links from the index work properly.
 # relative_permalinks: true
 permalink:           pretty
+# permalink config
+# permalink:          /:year/:month/:day/:slug/
 
 # Setup
 title:               craigbeck.io
@@ -11,8 +13,6 @@ description:         ''
 url:                 http://craigbeck.io
 paginate:            5
 
-# permalink config
-permalink:          /:year/:month/:day/:slug/
 
 # About/contact
 author:
@@ -25,7 +25,7 @@ author:
 version:             1.0.0
 
 # require gems for build
-gems:
+plugins:
   - jekyll-paginate
   - classifier-reborn
 

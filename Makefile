@@ -1,8 +1,21 @@
+JEKYLL_VERSION=${JEKYLL_VERSION:-4}
+
 watch:
-  jekyll serve --watch --draft --port 4001
+	docker run \
+	--rm \
+	--volume="${PWD}:/srv/jekyll:Z" \
+	-p 4000:4000 \
+	--volume="${PWD}/vendor/bundle:/usr/local/bundle:Z" \
+	"jekyll/jekyll:${JEKYLL_VERSION}" \
+	jekyll serve
 
 build:
-	JEKYLL_ENV=production jekyll build --lsi
+	docker run \
+	--rm \
+	--volume="${PWD}:/srv/jekyll:Z" \
+	--volume="${PWD}/vendor/bundle:/usr/local/bundle:Z" \
+	"jekyll/jekyll:${JEKYLL_VERSION}" \
+	jekyll build
 
 deploy:
 	surge -p _site -d craigbeck.io
@@ -14,7 +27,7 @@ clean:
 	rm -rf _site
 
 check:
-	jekyll doctor
+	docker run --rm --volume="$PWD:/srv/jekyll:Z" -p 4000:4000 --volume="$PWD/vendor/bundle:/usr/local/bundle:Z" jekyll/jekyll:$JEKYLL_VERSION jekyll doctor
 
 linkpost:
 	bundle exec octopress new post "${title}" --template linkpost

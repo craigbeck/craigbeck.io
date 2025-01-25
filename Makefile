@@ -6,11 +6,13 @@ build:
 watch:
 	docker run --rm --volume="$${PWD}:/srv/jekyll:Z" -p 4000:4000 --volume="$${PWD}/vendor/bundle:/usr/local/bundle:Z" jekyll/jekyll:4 jekyll serve
 
+serve: watch
+	open http://localhost:4000
+
 deploy:
 	surge -p _site -d craigbeck.io
 
-pdf:
-	wkhtmltopdf --print-media-type  http://127.0.0.1:4000/resume/ public/resume.pdf
+publish: deploy
 
 clean:
 	rm -rf _site

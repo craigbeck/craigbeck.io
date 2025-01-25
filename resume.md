@@ -37,15 +37,15 @@ I am most comfortable with agile development processes and enjoy pair-programmin
 
 ### Primary Technologies
 
-Javascript, [NodeJS](http://nodejs.org), [ReactJS](http://facebook.github.io/react/), [Typescrpt](https://www.typescriptlang.org), HTML, CSS 3, OS X, Bash
+Javascript, [NodeJS](http://nodejs.org), [ReactJS](http://facebook.github.io/react/), [Typescrpt](https://www.typescriptlang.org), HTML, CSS 3, Bash
 
 ### Secondary Technologies
 
-[Webpack](http://webpack.github.io), [Elixir](http://elixir-lang.org), [SASS](http://sass-lang.com), [LESS](http://lesscss.org), [Elasticsearch](http://elasticsearch.org), MySQL, Postgres, [Docker](http://docker.com), Google Cloud (AppEngine, Storage, BigQuery, DataStore)
+[Webpack](http://webpack.github.io), [Elixir](http://elixir-lang.org), MySQL, Postgres, [Docker](http://docker.com), Google Cloud (AppEngine, Storage, BigQuery, DataStore), OSX, Linux, [CubeJS](https://github.com/cube-js/cube)
 
 ### Past Technologies
 
-[D3](http://d3js.org), [AngularJS](http://angularjs.org), [Grunt.js](http://gruntjs.com), [Gulp.js](http://gulpjs.com), [Vagrant](http://vagrantup.com), [ZeroMQ](http://zeromq.org), [Apache Zookeeper](http://zookeeper.apache.org), [Bootstrap](http://getbootstrap.com), [CouchDB](http://couchdb.apache.org),  Amazon Web Services (EC2, S3, Route53, SNS, SQS, Cloudwatch), Python, C# 2.0-4.0, ASP.NET MVC 3, Linq, Knockout.JS, NUnit, RabbitMQ, MassTransit, WCF, PowerShell, SQL, XML, XPath, XQuery, NAnt, CruiseControl.NET, Subversion, IIS 6, IIS 7, Microsoft Office, Microsoft SQL Server 2005/2008, Sqlite
+[D3](http://d3js.org), [AngularJS](http://angularjs.org), [Grunt.js](http://gruntjs.com), [Gulp.js](http://gulpjs.com), [Vagrant](http://vagrantup.com), [ZeroMQ](http://zeromq.org), [Apache Zookeeper](http://zookeeper.apache.org), [Bootstrap](http://getbootstrap.com), [CouchDB](http://couchdb.apache.org), [SASS](http://sass-lang.com), [LESS](http://lesscss.org), [Elasticsearch](http://elasticsearch.org), Amazon Web Services (EC2, S3, Route53, SNS, SQS, Cloudwatch), Python, C# 2.0-4.0, ASP.NET MVC 3, Linq, Knockout.JS, NUnit, RabbitMQ, MassTransit, WCF, PowerShell, SQL, XML, XPath, XQuery, NAnt, CruiseControl.NET, Subversion, IIS 6, IIS 7, Microsoft Office, Microsoft SQL Server 2005/2008, Sqlite
 
 
 ## Experience

@@ -1,14 +1,22 @@
+- name: DerbyJS
+  url: https://github.com/derbyjs
+  excerpt: DerbyJS is a full-stack framework for writing modern web applications (maintainer)
+  tags:
+    - nodejs
+    - javascript
+    - typescript
+
 - name: hapi-raygun
   url: https://www.npmjs.com/package/hapi-raygun
   excerpt: A Hapi.js plugin for reporting server-side errors to [Raygun](https://raygun.com)
   tags:
-    - node
+    - nodejs
 
 - name: sensor-logger
   url: https://github.com/craigbeck/sensor-logger
   excerpt: A node.js app that logs incomming stats from an Arduino to [Librato](https://www.librato.com)
   tags:
-    - node
+    - nodejs
     - arduino
 
 - name: react-isomorphic-demo
@@ -21,7 +29,7 @@
   url: https://github.com/craigbeck/webpack-starter
   excerpt: Webpack starter project boilerplate
   tags:
-    - node
+    - nodejs
     - react
 
 - name: status-board
@@ -47,4 +55,4 @@
   url: https://www.npmjs.com/package/generator-pymod
   excerpt: A generator for [Yeoman](http://yeoman.io) to create Python module boilerplate
   tags:
-    - node
+    - nodejs

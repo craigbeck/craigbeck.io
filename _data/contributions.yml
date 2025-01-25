@@ -1,3 +1,6 @@
 - name: sequelize/sequelize
 - name: agus-c/just
 - name: hapijs/hapi
+- name: derbyjs/derby
+- name: derbyjs/racer
+- name: derbyjs/derby-webpack

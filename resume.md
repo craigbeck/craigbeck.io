@@ -53,13 +53,13 @@ Javascript, [NodeJS](http://nodejs.org), [ReactJS](http://facebook.github.io/rea
 ### [Employ](https://employinc.com) (formerly [Lever](https://lever.co)) - Staff Software Engineer 01/2022-12/2024
 
 Maintiner of [DerbyJS](https://derbyjs.org) - Lever's own open-source web-framework
-- implemented hot-reloading for framework smooting the developer experience through time savings and tighter cycle times
-- evolved framework to more modern state for current development pracices by converting codebase to typescript
+- authored internal documentation and training materials for onboarding developers
+- implemented hot-reloading for framework smoothing the developer experience through time savings and tighter cycle times
+- evolved framework to more modern state for current development practices by converting codebase to Typescript
 - modernized application code form coffeescript (v1!) to Typescript by writing AST-wrangling [codemods](https://github.com/facebook/jscodeshift) and judicous application of elbow grease
 - bug fixes for application as well as framework code
 
-### [Premise](https:///www.premise.com) - Sr. Front-End Engineer 05/2021-01/2022
-### [Premise](https:///www.premise.com) - Sr. Front-End Development Manager 11/2019-05/2021
+### [Premise](https:///www.premise.com) - Sr. Front-End Development Manager 11/2019-05/2021, Sr. Front-End Engineer 05/2021-01/2022
 
 Managed team of 5 front-end engineers while maintaining a hand in technical work. Designed architecture for new initiatives for client facing applications using React, Node, [Hapi](https://hapi.dev), [Cube.js](https://cube.dev), [TypeScript](https://www.typescriptlang.org)
 - code reviews

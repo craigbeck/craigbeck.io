@@ -52,12 +52,11 @@ Javascript, [NodeJS](http://nodejs.org), [ReactJS](http://facebook.github.io/rea
 
 ### [Employ](https://employinc.com) (formerly [Lever](https://lever.co)) - Staff Software Engineer 01/2022-12/2024
 
-Maintiner of [DerbyJS](https://derbyjs.org) - Lever's own open-source web-framework
-- authored internal documentation and training materials for onboarding developers
+Maintiner of [DerbyJS](https://derbyjs.org) - Lever's own open-source web-framework [github](https://github.com/derbyjs)
+- authored internal documentation and training materials using LMS and cloud development environments for onboarding developers
 - implemented hot-reloading for framework smoothing the developer experience through time savings and tighter cycle times
 - evolved framework to more modern state for current development practices by converting codebase to Typescript
 - modernized application code form coffeescript (v1!) to Typescript by writing AST-wrangling [codemods](https://github.com/facebook/jscodeshift) and judicous application of elbow grease
-- bug fixes for application as well as framework code
 
 ### [Premise](https:///www.premise.com) - Sr. Front-End Development Manager 11/2019-05/2021, Sr. Front-End Engineer 05/2021-01/2022
 

@@ -52,30 +52,19 @@ Javascript, [NodeJS](http://nodejs.org), [ReactJS](http://facebook.github.io/rea
 
 ### [Employ](https://employinc.com) (formerly [Lever](https://lever.co)) - Staff Software Engineer 01/2022-12/2024
 
-Maintiner of [DerbyJS](https://derbyjs.org) - Lever's own open-source web-framework [github](https://github.com/derbyjs)
-- authored internal documentation and training materials using LMS and cloud development environments for onboarding developers
-- implemented hot-reloading for framework smoothing the developer experience through time savings and tighter cycle times
-- evolved framework to more modern state for current development practices by converting codebase to Typescript
-- modernized application code form coffeescript (v1!) to Typescript by writing AST-wrangling [codemods](https://github.com/facebook/jscodeshift) and judicous application of elbow grease
+Maintiner of [DerbyJS](https://derbyjs.org) - Lever's own open-source web-framework [github](https://github.com/derbyjs) Authored internal documentation and training materials using LMS and cloud development environments for onboarding developers. Implemented hot-reloading for Derby framework smoothing the developer experience through time savings and tighter cycle times. Evolved framework to more modern state for current development practices by converting codebase to Typescript. Modernized application code form coffeescript (v1!) to Typescript by writing AST-wrangling [codemods](https://github.com/facebook/jscodeshift) and judicous application of elbow grease
 
 ### [Premise](https:///www.premise.com) - Sr. Front-End Development Manager 11/2019-05/2021, Sr. Front-End Engineer 05/2021-01/2022
 
-Managed team of 5 front-end engineers while maintaining a hand in technical work. Designed architecture for new initiatives for client facing applications using React, Node, [Hapi](https://hapi.dev), [Cube.js](https://cube.dev), [TypeScript](https://www.typescriptlang.org)
-- code reviews
-- mentoring
+Managed team of 5 front-end engineers while maintaining a hand in technical work. Lead architecture and implementaiton of keystone customer product featuring data visualizations via maps and charting using React, Node, [Hapi](https://hapi.dev), [Cube.js](https://cube.dev), [TypeScript](https://www.typescriptlang.org)
 
 ### [Premise](https:///www.premise.com) - Lead Front-End Software Engineer 05/2018-11/2019
 
-Lead for team of 4 engineers defining technical direction for the evolution of the Premise web platform
-- defined code guidelines
-- code reviews
-- mentoring
+Lead for team of 4 engineers defining technical direction for the evolution of the Premise web platform. , including design of analytics solutions. Defined code guidelines, code review standards, and metoring of junioir through senior developers.
 
 ### [Premise](http://www.premise.com) - Front-End Software Engineer 11/2016-05/2018
 
-Front-end engineering using React, Redux, [Lerna](https://lernajs.io), and [Flow](https://flowtype.org) to build web-based data gathering campaigns and analytic tools to enable organizations to make better decisions.
-- developed new product area and features for data-quality, user and fraud management, data visualizations
-- defined APIs and advocated for architecture
+Front-end engineering using React, Redux, [Lerna](https://lernajs.io), and [Flow](https://flowtype.org) to build web-based data gathering campaigns and analytic tools to enable organizations to make better decisions. Designed and developed new systems end features features for data-quality, user and fraud management
 
 ### [Zipwhip](http://www.zipwhip.com) - Senior Front-End Engineer 03/2015-07/2016
 
@@ -115,7 +104,7 @@ Responsible for designing and building features for green field system to pull d
 
 ### [Atlas Solutions](http://atlassolutions.com) – Release Engineer, 12/2005 – 04/2006
 
-Worked with Atlas’ build operations team to support development projects. Daily duties include maintaining build and deployment project scripts, troubleshooting automated builds, administering VSS, developing internal deployment tools using C# and XML, implementing VSS to Subversion migration, and administrating source repositories.
+Worked with Atlas’ build operations team to support development projects. Daily duties include maintaining build and deployment project scripts, troubleshooting automated builds, administering VSS, developing internal deployment tools using C# and XML, implementing VSS to Subversion migration, and administrating source repositories, and creating internal web tools.
 
 ### [Atlas Solutions](http://atlassolutions.com) – Build Operations (Intern), 09/2005 – 12/2005
 

@@ -56,11 +56,11 @@ Maintiner of [DerbyJS](https://derbyjs.org) - Lever's own open-source web-framew
 
 ### [Premise](https:///www.premise.com) - Sr. Front-End Development Manager 11/2019-05/2021, Sr. Front-End Engineer 05/2021-01/2022
 
-Managed team of 5 front-end engineers while maintaining a hand in technical work. Lead architecture and implementaiton of keystone customer product featuring data visualizations via maps and charting using React, Node, [Hapi](https://hapi.dev), [Cube.js](https://cube.dev), [TypeScript](https://www.typescriptlang.org)
+Managed team of front-end engineers while maintaining a hand in technical work. Lead architecture and implementaiton of keystone customer product featuring data visualizations via maps and charting using React, Node, [Hapi](https://hapi.dev), [Cube.js](https://cube.dev), [TypeScript](https://www.typescriptlang.org)
 
 ### [Premise](https:///www.premise.com) - Lead Front-End Software Engineer 05/2018-11/2019
 
-Lead for team of 4 engineers defining technical direction for the evolution of the Premise web platform. , including design of analytics solutions. Defined code guidelines, code review standards, and metoring of junioir through senior developers.
+Lead for team of engineers defining technical direction for the evolution of the Premise web platform. , including design of analytics solutions. Defined code guidelines, code review standards, and metoring of junioir through senior developers.
 
 ### [Premise](http://www.premise.com) - Front-End Software Engineer 11/2016-05/2018
 

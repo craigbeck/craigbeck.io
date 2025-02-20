@@ -56,11 +56,11 @@ Maintiner of [DerbyJS](https://derbyjs.org) - Lever's own open-source web-framew
 
 ### [Premise](https:///www.premise.com) - Sr. Front-End Development Manager 11/2019-05/2021, Sr. Front-End Engineer 05/2021-01/2022
 
-Managed team of front-end engineers while maintaining a hand in technical work. Lead architecture and implementaiton of keystone customer product featuring data visualizations via maps and charting using React, Node, [Hapi](https://hapi.dev), [Cube.js](https://cube.dev), [TypeScript](https://www.typescriptlang.org)
+Managed team of front-end engineers while maintaining a hand in technical work. Lead architecture and implementation of keystone customer product featuring data visualizations via maps and charting using React, Node, [Hapi](https://hapi.dev), [Cube.js](https://cube.dev), [TypeScript](https://www.typescriptlang.org)
 
 ### [Premise](https:///www.premise.com) - Lead Front-End Software Engineer 05/2018-11/2019
 
-Lead for team of engineers defining technical direction for the evolution of the Premise web platform. , including design of analytics solutions. Defined code guidelines, code review standards, and metoring of junioir through senior developers.
+Lead for team of engineers defining technical direction for the evolution of the Premise web platform. , including design of analytics solutions. Defined code guidelines, code review standards, and mentoring of junior through senior developers.
 
 ### [Premise](http://www.premise.com) - Front-End Software Engineer 11/2016-05/2018
 
@@ -76,7 +76,7 @@ Full-stack node.js development and consulting. Maintenance and new feature devel
 
 ### [Formidable Labs](http://formidablelabs.com) - Software Engineer 09/2014-11/2014
 
-Full-stack NodeJS application development for clients. Porting business intellegence application written in Rails to Node and rapid prototyping of internal enterprise planning application for Walmart Labs using HTML5, React and Node.
+Full-stack NodeJS application development for clients. Porting business intelligence application written in Rails to Node and rapid prototyping of internal enterprise planning application for Walmart Labs using HTML5, React and Node.
 
 ### [A6 Corporation](http://www.a6corp.com) – Software Developer 11/2012-07/2014
 

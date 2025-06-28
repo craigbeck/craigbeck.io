@@ -3,6 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 const cheerio = require('cheerio');
+const OpenAI = require('openai');
 
 // Simple HTML title extraction without external dependencies
 function extractTitle(html) {
@@ -10,40 +11,96 @@ function extractTitle(html) {
   return titleMatch ? titleMatch[1].trim() : 'Untitled';
 }
 
-// Extract summary from HTML using semantic tags
-function extractSummary(html) {
+// Extract main content from HTML using semantic tags
+function extractMainContent(html) {
   const $ = cheerio.load(html);
-  let summary = '';
+  let content = '';
   
-  // Try semantic tags in order of preference
+  // Try semantic containers in order of preference
   const semanticSelectors = [
-    'article p:first-of-type',
-    'main p:first-of-type', 
-    '[role="main"] p:first-of-type',
-    '.content p:first-of-type',
-    '#content p:first-of-type',
-    'section p:first-of-type',
-    'p:first-of-type'
+    'article',
+    'main', 
+    '[role="main"]',
+    '.content',
+    '#content',
+    '.post-content',
+    '.entry-content',
+    'section'
   ];
   
   for (const selector of semanticSelectors) {
     const element = $(selector).first();
     if (element.length > 0) {
-      let text = element.text().trim();
-      // Clean up the text and limit to 1-3 sentences
-      text = text.replace(/\s+/g, ' '); // Normalize whitespace
-      const sentences = text.split(/[.!?]+/);
-      summary = sentences.slice(0, 3).join('. ').trim();
-      if (summary && summary.length > 20) { // Ensure meaningful content
-        if (!summary.endsWith('.') && !summary.endsWith('!') && !summary.endsWith('?')) {
-          summary += '.';
-        }
+      // Remove unwanted elements like nav, aside, footer, ads
+      element.find('nav, aside, footer, .ads, .advertisement, .social-share, .comments').remove();
+      
+      // Extract text from paragraphs, headings, and lists
+      const textElements = element.find('p, h1, h2, h3, h4, h5, h6, li').map(function() {
+        return $(this).text().trim();
+      }).get();
+      
+      content = textElements.filter(text => text.length > 20).join(' ');
+      
+      if (content && content.length > 100) { // Ensure meaningful content
         break;
       }
     }
   }
   
-  return summary || 'Summary not available.';
+  // Fallback: extract all paragraphs
+  if (!content) {
+    content = $('p').map(function() {
+      return $(this).text().trim();
+    }).get().filter(text => text.length > 20).join(' ');
+  }
+  
+  // Clean up the text
+  content = content.replace(/\s+/g, ' ').trim();
+  
+  // Limit content length for API efficiency (roughly 3000 words max)
+  if (content.length > 12000) {
+    content = content.substring(0, 12000) + '...';
+  }
+  
+  return content || 'No content available for summarization.';
+}
+
+// Use OpenAI to generate a concise summary
+async function generateSummary(content, title, url) {
+  try {
+    const openai = new OpenAI({
+      apiKey: process.env.OPENAI_API_KEY
+    });
+    
+    const prompt = `Please provide a concise 1-3 sentence summary of the following web content. Focus on the main points and key insights. Do not include promotional language or calls to action.
+
+Title: ${title}
+URL: ${url}
+
+Content:
+${content}`;
+    
+    const response = await openai.chat.completions.create({
+      model: 'gpt-3.5-turbo',
+      messages: [
+        {
+          role: 'user',
+          content: prompt
+        }
+      ],
+      max_tokens: 150,
+      temperature: 0.3
+    });
+    
+    return response.choices[0].message.content.trim();
+    
+  } catch (error) {
+    console.warn('⚠️  OpenAI summarization failed:', error.message);
+    // Fallback to simple truncation
+    const sentences = content.split(/[.!?]+/);
+    const summary = sentences.slice(0, 3).join('. ').trim();
+    return summary.length > 0 ? summary + '.' : 'Summary not available.';
+  }
 }
 
 // Create a URL-friendly slug from title
@@ -67,7 +124,8 @@ async function scrapeAndCreateLinkpost(url) {
     
     const html = await response.text();
     const title = extractTitle(html);
-    const summary = extractSummary(html);
+    const mainContent = extractMainContent(html);
+    const summary = await generateSummary(mainContent, title, url);
     const slug = createSlug(title);
     const date = new Date().toISOString().split('T')[0];
     const filename = `${date}-${slug}.markdown`;

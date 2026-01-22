@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resume
-date: 2016-02-02
+date: 2026-01-22
 comments: false
 sharing: true
 footer: false
@@ -28,20 +28,20 @@ footer: false
 
 <hr/>
 
-The language I am currently most fluent in is **Javascript** for both client and server development, although I have done work with Java, C#, and Python, I am most passionate to work with **node.js**, or **Elixir** and **Erlang** to create [native web apps](https://blog.andyet.com/2015/01/22/native-web-apps) and supporting APIs.
+I am a full-stack software engineer specializing in **TypeScript** and **JavaScript** for modern web application development. I have extensive experience building scalable systems with **React**, **Node.js**, and cloud technologies. My background includes work with Python, C#, Elixir, and distributed systems.
 
-I am most comfortable with agile development processes and enjoy pair-programming and practicing <abbr title="Test Diven Development">[TDD](http://en.wikipedia.org/wiki/Test-driven_development)</abbr> and <abbr title="Behaviour Diven Development">[BDD](http://en.wikipedia.org/wiki/Behavior-driven_development)</abbr>
+I am most comfortable with agile development processes and enjoy pair-programming and practicing <abbr title="Test Driven Development">[TDD](http://en.wikipedia.org/wiki/Test-driven_development)</abbr> and <abbr title="Behaviour Driven Development">[BDD](http://en.wikipedia.org/wiki/Behavior-driven_development)</abbr>
 
 
 ## Technical Skills
 
 ### Primary Technologies
 
-Javascript, [NodeJS](http://nodejs.org), [ReactJS](http://facebook.github.io/react/), [Typescrpt](https://www.typescriptlang.org), HTML, CSS 3, Bash
+[TypeScript](https://www.typescriptlang.org), JavaScript, [NodeJS](http://nodejs.org), [ReactJS](http://facebook.github.io/react/), HTML, CSS 3, Bash
 
 ### Secondary Technologies
 
-[Webpack](http://webpack.github.io), [Elixir](http://elixir-lang.org), MySQL, Postgres, [Docker](http://docker.com), Google Cloud (AppEngine, Storage, BigQuery, DataStore), OSX, Linux, [CubeJS](https://github.com/cube-js/cube)
+[Webpack](http://webpack.github.io), [Docker](http://docker.com), Postgres, MySQL, [Elixir](http://elixir-lang.org), Google Cloud (AppEngine, Storage, BigQuery, DataStore), [CubeJS](https://github.com/cube-js/cube), OSX, Linux
 
 ### Past Technologies
 
@@ -50,21 +50,25 @@ Javascript, [NodeJS](http://nodejs.org), [ReactJS](http://facebook.github.io/rea
 
 ## Experience
 
+### [Qualtrics](https://www.qualtrics.com) - Senior Software Engineer (Contract) 09/2024-12/2024
+
+Worked on key code migration project from Angular v1 to modern React, migrating services, controllers, and directives. Implemented solutions for transparent migration techniques enabling both React and Angular consumers to seamlessly utilize migrated code.
+
 ### [Employ](https://employinc.com) (formerly [Lever](https://lever.co)) - Staff Software Engineer 01/2022-12/2024
 
-Maintiner of [DerbyJS](https://derbyjs.org) - Lever's own open-source web-framework [github](https://github.com/derbyjs) Authored internal documentation and training materials using LMS and cloud development environments for onboarding developers. Implemented hot-reloading for Derby framework smoothing the developer experience through time savings and tighter cycle times. Evolved framework to more modern state for current development practices by converting codebase to Typescript. Modernized application code form coffeescript (v1!) to Typescript by writing AST-wrangling [codemods](https://github.com/facebook/jscodeshift) and judicous application of elbow grease
+Maintainer of [DerbyJS](https://derbyjs.org) - Lever's own open-source web-framework ([github](https://github.com/derbyjs)). Authored internal documentation and training materials using LMS and cloud development environments for onboarding developers. Implemented hot-reloading for Derby framework, improving developer experience through time savings and tighter cycle times. Evolved framework to more modern state for current development practices by converting codebase to TypeScript. Modernized application code from CoffeeScript (v1!) to TypeScript by writing AST-wrangling [codemods](https://github.com/facebook/jscodeshift) and judicious application of elbow grease.
 
-### [Premise](https:///www.premise.com) - Sr. Front-End Development Manager 11/2019-05/2021, Sr. Front-End Engineer 05/2021-01/2022
+### [Premise](https://www.premise.com) - Senior Front-End Development Manager 11/2019-05/2021, Senior Front-End Engineer 05/2021-01/2022
 
 Managed team of front-end engineers while maintaining a hand in technical work. Lead architecture and implementation of keystone customer product featuring data visualizations via maps and charting using React, Node, [Hapi](https://hapi.dev), [Cube.js](https://cube.dev), [TypeScript](https://www.typescriptlang.org)
 
-### [Premise](https:///www.premise.com) - Lead Front-End Software Engineer 05/2018-11/2019
+### [Premise](https://www.premise.com) - Lead Front-End Software Engineer 05/2018-11/2019
 
 Lead for team of engineers defining technical direction for the evolution of the Premise web platform. , including design of analytics solutions. Defined code guidelines, code review standards, and mentoring of junior through senior developers.
 
 ### [Premise](http://www.premise.com) - Front-End Software Engineer 11/2016-05/2018
 
-Front-end engineering using React, Redux, [Lerna](https://lernajs.io), and [Flow](https://flowtype.org) to build web-based data gathering campaigns and analytic tools to enable organizations to make better decisions. Designed and developed new systems end features features for data-quality, user and fraud management
+Front-end engineering using React, Redux, [Lerna](https://lernajs.io), and [Flow](https://flowtype.org) to build web-based data gathering campaigns and analytic tools to enable organizations to make better decisions. Designed and developed new systems and features for data-quality, user and fraud management.
 
 ### [Zipwhip](http://www.zipwhip.com) - Senior Front-End Engineer 03/2015-07/2016
 
@@ -82,7 +86,7 @@ Full-stack NodeJS application development for clients. Porting business intellig
 
 Worked on next-generation big-data advertising platform as part of a small developer team. Built real-time web applications for business and operations, prototype data visualization apps, and external customer facing applications using Python, AngularJS, [D3.js](https://d3js.org) and related web technologies. Integrated monitoring systems with external APIs using custom Python and Java metrics collection and external APIs (Librato, PagerDuty, AWS SQS, Nsq). Built real-time web applications using Apache Zookeeper and <abbr title="Server Sent Events">SSE</abbr> to monitor and view cloud deployments state.
 
-### [POP](http://www.popagency.com) – Senior Software Engineer 04/2012-10/2012 (contract)
+### [POP](https://www.wearepop.com) – Senior Software Engineer 04/2012-10/2012 (contract)
 
 Design and implemented new features for [WordFly](http://www.wordfly.com) SAAS application for arts organizations. Developed solutions to handle scaling and reliability issues using RabbitMQ cluster and MassTransit service bus for distributed asynchronous processing of application events. Improved CI process for increased reliability of deliverables.
 

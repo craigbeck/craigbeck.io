@@ -1,0 +1,17 @@
+---
+layout: post
+title: "georgeguimaraes/arcana"
+date: 2026-03-06T10:00:00-08:00
+linkhref: https://github.com/georgeguimaraes/arcana
+categories:
+  - elixir
+  - libraries
+  - RAG
+  - AI-engineering
+---
+
+[{{ page.title }}]({{ page.linkhref }})
+
+> Embeddable RAG library for Elixir/Phoenix with agentic pipelines and dashboard.
+
+This looks like a really well-thought-out approach to adding RAG capabilities to Phoenix apps. The three-function API (ingest, search, ask) keeps things simple, but it also supports more advanced agentic pipelines with query expansion, multi-hop reasoning, and self-correction, with built-in LiveDashboard integration and swappable backends ([pgvector](https://github.com/pgvector/pgvector), [Bumblebee](https://github.com/elixir-nx/bumblebee) for local embeddings)

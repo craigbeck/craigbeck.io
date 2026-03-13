@@ -1,0 +1,58 @@
+// ATS-friendly resume template for pandoc/typst
+// Single column, standard fonts, no graphics
+
+// Required by pandoc markdown-to-typst conversion
+#let horizontalrule = line(length: 100%, stroke: 0.5pt + luma(180))
+
+#show terms.item: it => block(breakable: false)[
+  #text(weight: "bold")[#it.term]
+  #block(inset: (left: 1.5em, top: -0.4em))[#it.description]
+]
+
+#set table(inset: 6pt, stroke: none)
+
+#set page(
+  paper: "us-letter",
+  margin: (top: 0.5in, bottom: 0.5in, left: 0.6in, right: 0.6in),
+  numbering: none,
+)
+
+#set text(
+  font: "Arial",
+  size: 11pt,
+  lang: "en",
+)
+
+#set par(
+  leading: 0.55em,
+  spacing: 0.9em,
+)
+
+// Headings
+#show heading.where(level: 1): it => {
+  set text(size: 18pt, weight: "bold")
+  set block(above: 0em, below: 0.3em)
+  it
+}
+
+#show heading.where(level: 2): it => {
+  set text(size: 13pt, weight: "bold")
+  set block(above: 1em, below: 0.6em)
+  line(length: 100%, stroke: 0.5pt + luma(180))
+  it
+}
+
+#show heading.where(level: 3): it => {
+  set text(size: 10pt, weight: "bold")
+  set block(above: 0.8em, below: 0.4em)
+  it
+}
+
+// Tighter list spacing
+#set list(
+  tight: true,
+  spacing: 0.5em,
+  indent: 0.3em,
+)
+
+$body$

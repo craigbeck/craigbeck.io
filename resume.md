@@ -8,7 +8,7 @@ footer: false
 ---
 
 <div class="h-card">
-    <h1 class="p-name"><a class="p-url" href="http://craigbeck.github.io">Craig Beck</a></h1>
+    <h1 class="p-name"><a class="p-url" href="https://craigbeck.io">Craig Beck</a></h1>
     <div class="h-adr">
         <span class="p-locality">Seattle</span>, <span class="p-region">Washington</span>
     </div>
@@ -16,11 +16,13 @@ footer: false
     <div class="properties">
         <a class="u-email" href="mailto:luckybonza@gmail.com">luckybonza@gmail.com</a> <span class="muted">&star;</span> <span class="p-tel">206-390-4022</span><br/>
         <span class="no-print">
-          <a href="http://www.linkedin.com/pub/craig-beck/9/a48/554">LinkedIn</a>
+          <a href="http://www.linkedin.com/in/craig-beck-software-engineer/">LinkedIn</a>
           <span class="muted">&star; </span>
           <a href="https://github.com/craigbeck">Github</a>
           <span class="muted">&star; </span>
-          <a href="{{ "/public/resume.pdf" | relative_url }}" download="Craig Beck resume.pdf">Download PDF</a><br/>
+          <a href="https://craigbeck.io">Website</a>
+          <span class="muted">&star; </span>
+          <a href="{{ "/public/resume.pdf" | relative_url }}" download="Craig Beck - Senior Software Engieer.pdf">Download PDF</a><br/>
           <span class="muted">Last updated {{ page | last_modified | date: "%b %d, %Y" }}</span>
         </span>
     </div>
@@ -30,17 +32,15 @@ footer: false
 
 I am a full-stack software engineer specializing in **TypeScript** and **JavaScript** for modern web application development. I have extensive experience building scalable systems with **React**, **Node.js**, and cloud technologies. My background includes work with Python, C#, Elixir, and distributed systems.
 
-I am most comfortable with agile development processes and enjoy pair-programming and practicing <abbr title="Test Driven Development">[TDD](http://en.wikipedia.org/wiki/Test-driven_development)</abbr> and <abbr title="Behavior Driven Development">[BDD](http://en.wikipedia.org/wiki/Behavior-driven_development)</abbr>.
-
 ## Technical Skills
 
 ### Primary Technologies
 
-[TypeScript](https://www.typescriptlang.org), JavaScript, [Node.js](http://nodejs.org), [ReactJS](http://facebook.github.io/react/), HTML, CSS 3, Bash
+[TypeScript](https://www.typescriptlang.org), JavaScript, [Node.js](http://nodejs.org), [ReactJS](http://facebook.github.io/react/), HTML, CSS, Bash
 
 ### Secondary Technologies
 
-[Webpack](http://webpack.github.io), [Docker](http://docker.com), Postgres, MySQL, [Elixir](http://elixir-lang.org), Google Cloud (AppEngine, Storage, BigQuery, DataStore), [CubeJS](https://github.com/cube-js/cube), OSX, Linux
+[Webpack](http://webpack.github.io), [Docker](http://docker.com), Postgres, MySQL, [Elixir](http://elixir-lang.org), Google Cloud (AppEngine, Storage, BigQuery, DataStore), [CubeJS](https://github.com/cube-js/cube), OSX, Linux, Agentic coding (Cursor, Claude)
 
 ### Past Technologies
 

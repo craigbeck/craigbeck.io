@@ -48,7 +48,7 @@ I am a full-stack software engineer specializing in **TypeScript** and **JavaScr
 
 ## Experience
 
-### [Qualtrics](https://www.qualtrics.com) - Senior Software Engineer (Contract) 09/2024-12/2024
+### [Qualtrics](https://www.qualtrics.com) - Senior Software Engineer (Contract) 09/2025-01/2026
 
 - Key implementor of migration from Angular v1 to React, enabling simultaneous use of both
 frameworks
